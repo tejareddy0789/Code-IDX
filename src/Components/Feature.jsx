@@ -8,9 +8,9 @@ const features = [
     description:
       "Get intelligent, AI powered code suggestions that adapt to your coding style offering real-time help with syntax, logic, and best practices.",
     codeSnippet: `function handleSubmit() {
-  // AI suggests next line
+ 
   const data = await fetch("/api/submit")
-  // Auto-completed by AI
+
 }`,
     imagePosition: 'left',
   },
@@ -19,9 +19,9 @@ const features = [
     description:
       "Generate comprehensive test suites automatically. Our AI analyzes your code and creates unit tests, integration tests, and edge case coverage.",
     codeSnippet: `describe("User Authentication", () => {
-  // Auto-generated tests
+
   it("should login successfully", () => {
-    // Test implementation
+
   })
 })`,
     imagePosition: 'right',
@@ -30,11 +30,7 @@ const features = [
     title: "Smart Debugging",
     description:
       "Identify and fix bugs before they reach production. AI-powered error detection and resolution suggestions help you debug faster.",
-    codeSnippet: `⚠️ Error detected in line 22
-    // AI suggests fix:
     const response = await fetchUserData(userId)
-    // Fixed: Added missing await keyword
-    ✅ Issue resolved successfully`,
     imagePosition: 'left',
   },
 ];
